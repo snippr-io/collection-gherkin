@@ -1,0 +1,48 @@
+trigger: Then
+scope: gherkin
+description: toast error
+```
+Then I expect no toast error
+```
+trigger: Then
+scope: gherkin
+description: toast warning
+```
+Then I expect no toast warning
+```
+trigger: Then
+scope: gherkin
+description: toast info
+```
+Then I expect no toast info
+```
+trigger: Then
+scope: gherkin
+description: toast success
+```
+Then I expect no toast success
+```
+trigger: Then
+scope: gherkin
+description: toast error
+```
+Then I expect a toast error
+```
+trigger: Then
+scope: gherkin
+description: toast warning
+```
+Then I expect a toast warning
+```
+trigger: Then
+scope: gherkin
+description: toast info
+```
+Then I expect a toast info
+```
+trigger: Then
+scope: gherkin
+description: toast success
+```
+Then I expect a toast success
+```

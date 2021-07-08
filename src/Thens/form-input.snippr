@@ -1,0 +1,42 @@
+trigger: Then
+scope: gherkin
+description: Input has validation error
+```
+Then I expect ${1:selector} to error
+```
+trigger: Then
+scope: gherkin
+description: input is readonly
+```
+Then I expect ${1:selector} to be readonly
+```
+trigger: Then
+scope: gherkin
+description: Input has validation error with exact text
+```
+Then I expect ${1:selector} to error with ${2:text}
+```
+trigger: Then
+scope: gherkin
+description: input has value of
+```
+Then I expect ${1:selector} to have value ${2:value}
+```
+trigger: Then
+scope: gherkin
+description: input option has value of
+```
+Then I expect ${1:selector} option ${2:option} to be ${3:value}
+```
+trigger: Then
+scope: gherkin
+description: input is checked
+```
+Then I expect ${1:selector} to be checked
+```
+trigger: Then
+scope: gherkin
+description: input is not checked
+```
+Then I expect ${1:selector} to not be checked
+```

@@ -1,0 +1,24 @@
+trigger: When
+scope: gherkin
+description: set input value
+```
+When I set ${1:selector} to ${2:value}
+```
+trigger: When
+scope: gherkin
+description: set select value
+```
+When I select ${1:selector} option value ${2:value}
+```
+trigger: When
+scope: gherkin
+description: set select value by number
+```
+When I select ${1:selector} option number {2: index}
+```
+trigger: When
+scope: gherkin
+description: set select value with search
+```
+When I search ${1:selector} select with ${2:value}
+```

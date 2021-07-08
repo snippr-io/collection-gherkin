@@ -1,0 +1,12 @@
+trigger: When
+scope: gherkin
+description: go to url
+```
+When I navigate to ${1:path}
+```
+trigger: When
+scope: gherkin
+description: go to url wiht params
+```
+When I navigate to ${1:path} with querystring ${2:key} set to ${3:value}
+```

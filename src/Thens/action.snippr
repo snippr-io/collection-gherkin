@@ -1,0 +1,18 @@
+trigger: Then
+scope: gherkin
+description: Expect to see
+```
+Then I expect to see ${1:action}
+```
+trigger: Then
+scope: gherkin
+description: Expect to not see
+```
+Then I expect to not see ${1:action}
+```
+trigger: Then
+scope: gherkin
+description: Expect button to be disabled
+```
+Then I expect the ${1:action} button to be disabled
+```

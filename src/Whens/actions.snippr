@@ -1,0 +1,12 @@
+trigger: When
+scope: gherkin
+description: click button
+```
+When I click the ${1:action} button
+```
+trigger: When
+scope: gherkin
+description: click radio/checkbox
+```
+When I check the ${1:selector} radio/checkbox
+```

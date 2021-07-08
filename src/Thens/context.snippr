@@ -1,0 +1,23 @@
+trigger: Then
+scope: gherkin
+description: context example
+```
+Then I expect to go to ${1:string}
+```
+trigger: Then
+scope: gherkin
+description: context example
+```
+Then I expect ${1:string} to disappear
+```
+trigger: Then
+scope: gherkin
+description: context example
+```
+Then I expect ${1:string} to contain ${2:text}
+trigger: Then
+scope: gherkin
+description: context example
+```
+Then I expect ${1:string} to not contain ${2:text}
+```

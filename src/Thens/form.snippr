@@ -1,0 +1,12 @@
+trigger: Then
+scope: gherkin
+description: form submit fails
+```
+Then I expect submitting to fail
+```
+trigger: Then
+scope: gherkin
+description: form can submit
+```
+Then I expect to be able to submit
+```
